@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+
     <header class="header">
         <div class="menu container">
             <a href="#" class="logo"> logo</a>
             <input type="checkbox" id="menu"/>
             <label for="menu">
-                <img src="DESAROLLO 5TO/menu.png" class="menu_icon" alt="menu">
+                <img src="DESAROLLO 5TO/menu" class="menu_icon" alt="menu">
             </label>
             <nav class="navbar">
                 <ul>
@@ -36,7 +39,7 @@
         <div class="header-img">
             <img src="DESAROLLO 5TO/images.jpg" alt="">
         </div>
-        </div>
+</div>
     </header>
 
     <section class="about container">
@@ -51,11 +54,17 @@
 Asesoramiento Personalizado: Entendemos que cada cliente tiene necesidades únicas. Nuestros asesores altamente capacitados trabajan uno a uno para comprender las preferencias, el presupuesto y las expectativas de cada cliente, proporcionando recomendaciones personalizadas y orientación experta en la selección del vehículo adecuado.
 
             </p>
+</div>
+
+
     </section>
-    <main class="Servicios">
+
+
+
+    <main class="servicios">
         <h2>Servicios</h2>
-        <div class="Servicios-content container">
-            <div class="Servicio-1"> 
+        <div class="servicios-content container">
+            <div class="servicio-1"> 
                 <i class="fa sharp fa-solid fa-globe"></i>
                 <h3>financiamiento y seguros</h3>
             </div>
@@ -65,12 +74,12 @@ Asesoramiento Personalizado: Entendemos que cada cliente tiene necesidades únic
                 <h3>Servicio de postventa</h3>
             </div>
             
-            <div class="Servicio-1">
+            <div class="servicio-1">
                 <i class="fa sharp fa-solid fa-tag"></i>
                 <h3>Marketing y promocion</h3>
             </div>
 
-            <div class="Servicio-1">
+            <div class="servicio-1">
                 <i class="fa-sharp fa-solid fa-signal-bars"></i>
                 <h3>Consultoria de inversion automotriz</h3>
             </div>
@@ -103,12 +112,13 @@ Asesoramiento Personalizado: Entendemos que cada cliente tiene necesidades únic
                     <textarea name="message" placeholder="Detalles de la consulta"></textarea>
                 </div>
     
-            <input type="submit" name="send" class="btn" onclick="myFunction()">
+                 <input type="submit" name="send" class="btn" onclick="myFunction()">
             </div>    
         </form>
     </section>
 
     <footer class="footer">
+        <div class="footer-content container">
         <div class="link">
             <a href="#" class="logo">logo</a>
         </div>
@@ -121,6 +131,7 @@ Asesoramiento Personalizado: Entendemos que cada cliente tiene necesidades únic
                 <li><a href="#">Contacto</a></li>
              </ul>
         </div>
+      </div>
     </footer>
 
     <?php 
